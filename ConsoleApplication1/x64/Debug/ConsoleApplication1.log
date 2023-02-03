@@ -1,0 +1,37 @@
+﻿  ConsoleApplication1.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2857,53): warning C4244: '引数': 'wchar_t' から 'const _Elem' への変換です。データが失われる可能性があります。
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2718,1): message : コンパイル対象の関数 テンプレート インスタンス化 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' のリファレンスを確認してください
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933\include\xstring(2718,37): message : コンパイル対象の関数 テンプレート インスタンス化 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' のリファレンスを確認してください
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+C:\Users\yumiu\Desktop\p\botnet compiles\installer\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(95,13): message : コンパイル対象の関数 テンプレート インスタンス化 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' のリファレンスを確認してください
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\yumiu\Desktop\p\botnet compiles\installer\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(95,28): message : コンパイル対象の関数 テンプレート インスタンス化 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' のリファレンスを確認してください
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  ConsoleApplication1.vcxproj -> C:\Users\yumiu\Desktop\p\botnet compiles\installer\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
